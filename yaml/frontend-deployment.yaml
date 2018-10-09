@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: INSERT_PATH_TO_DOCKER_IMAGE
+        image: gcr.io/kubernetesdayproject/frontend@sha256:9d906f7865abe9ba75c0b8b48c4969769ac72123a4fc3d8fbf1142b153d056d0
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
