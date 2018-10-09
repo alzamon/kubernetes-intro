@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: backend
-        image: INSERT_PATH_TO_DOCKER_IMAGE
+        image: gcr.io/kubernetesdayproject/backend@sha256:4ce0cb8066bf7fdc4c3af6298a37e59d14f219fcbbf0c6062b8b91bded280d7f
         ports:
         - containerPort: 5000
